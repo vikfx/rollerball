@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	
+	<!-- ////////// GAME /////////////// -->
+	<game>
+		<!-- ///// CHARACTER ///// -->
+		<character>
+			<!-- // type 01 // -->
+			<chtype>
+				<mass>50</mass>
+				<friction>1</friction>
+				<radius>20</radius>
+				<material>assets/images/material_debug.jpg</material>
+				<maxspeed>2</maxspeed>
+			</chtype>
+		</character>
+		
+		<!-- ///// PLATEAU /////// -->
+		<plateau>
+			<tilesize>50</tilesize>
+			<levels>xml/levels.xml</levels>
+			<triggerMeshes></triggerMeshes>
+		</plateau>
+		
+		<!-- ///// CAMERA //////// -->
+		<camera>
+			<!-- // type 01 // -->
+			<ctype></ctype>
+		</camera>
+		
+		<!-- ///// PHYSIQUE ////// -->
+		<physic>
+			<gravity>1</gravity>
+			<ground>2</ground>
+			<force>20</force>
+		</physic>
+		
+	</game>
+	<!-- ////////// MENU /////////////// -->
+	<menu>
+		<!-- background -->
+		<background></background>
+		<classicbutton></classicbutton>
+		<levelbutton></levelbutton>
+	</menu>
+	<!-- ////////// INTERFACE ////////// -->
+	<interface>
+		<!-- ///// SOUNDS ///// -->
+		<sounds>
+			<music></music>
+			<buttons></buttons>
+			<character></character>
+			<menu></menu>
+			<game></game>
+			<gameover></gameover>
+		</sounds>
+		
+		<!-- ///// BUTTONS //// -->
+		<buttons></buttons>
+	</interface>
+	<!-- ////////// POPUP ////////// -->
+	<popup>
+		<background>0x222222</background>
+		<txtcolor>0xffffff</txtcolor>
+		<buttons>0x596842</buttons>
+		<!-- messages -->
+		<messages>
+			<win>Tu as Gagné</win>
+			<loose>Tu as Perdu</loose>
+		</messages>
+	</popup>
+</data>

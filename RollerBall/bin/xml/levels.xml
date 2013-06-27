@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<!-- ////////// LEVEL 00 ////////// -->
+	<level>
+		<!-- grille des etages -->
+		<gfloors>
+			<l>	<c>8</c>	<c>8</c>	<c>6</c>	<c>4</c>	<c>3</c>	</l>
+			<l> <c>8</c>	<c>9</c>	<c>9</c>	<c>0</c>	<c>3</c>	</l>
+			<l> <c>0</c>	<c>0</c>	<c>10</c>	<c>0</c>	<c>1</c>	</l>
+			<l> <c>0</c>	<c>1</c>	<c>1</c>	<c>0</c>	<c>3</c>	</l>
+			<l> <c>0</c>	<c>1</c>	<c>1</c>	<c>3</c>	<c>3</c>	</l>
+		</gfloors>
+		<!-- grille des triggers -->
+		<gtriggers>
+			<l>	<c>start</c>	<c>0</c>		<c>0</c>	<c>0</c>	<c>0</c>	</l>
+			<l>	<c>0</c>		<c>0</c>		<c>0</c>	<c>0</c>	<c>0</c>	</l>
+			<l>	<c>0</c>		<c>0</c>		<c>0</c>	<c>0</c>	<c>0</c>	</l>
+			<l>	<c>0</c>		<c>0</c>		<c>0</c>	<c>0</c>	<c>0</c>	</l>
+			<l>	<c>0</c>		<c>end</c>		<c>0</c>	<c>0</c>	<c>0</c>	</l>
+		</gtriggers>
+		<!-- environement -->
+		<environment></environment>
+		<!-- temps -->
+		<time></time>
+		<!-- material -->
+		<materials>
+			<mat>0x999999</mat>
+			<mat>0xA81503</mat>
+			<mat>0x2145C8</mat>
+		</materials>
+		<!-- etages max -->
+		<maxfloorbridge>2</maxfloorbridge>
+		<!-- hauteur de l'etage -->
+		<floorh>10</floorh>
+	</level>
+	
+	<!-- ////////// LEVEL 01 ////////// -->
+	<level>
+		<!-- grille des etages -->
+		<gfloors>
+			<l>	<c>2</c>	<c>2</c>	<c>3</c>	<c>4</c>	<c>4</c>	</l>
+			<l> <c>2</c>	<c>0</c>	<c>0</c>	<c>4</c>	<c>4</c>	</l>
+			<l> <c>1</c>	<c>0</c>	<c>1</c>	<c>0</c>	<c>4</c>	</l>
+			<l> <c>1</c>	<c>0</c>	<c>2</c>	<c>0</c>	<c>2</c>	</l>
+			<l> <c>0</c>	<c>0</c>	<c>2</c>	<c>2</c>	<c>2</c>	</l>
+		</gfloors>
+		<!-- grille des triggers -->
+		<gtriggers>
+			<l>	<c>0</c>		<c>0</c>		<c>0</c>	<c>0</c>	<c>0</c>	</l>
+			<l>	<c>0</c>		<c>0</c>		<c>0</c>	<c>0</c>	<c>0</c>	</l>
+			<l>	<c>0</c>		<c>0</c>		<c>end</c>	<c>0</c>	<c>0</c>	</l>
+			<l>	<c>start</c>	<c>0</c>		<c>0</c>	<c>0</c>	<c>0</c>	</l>
+			<l>	<c>0</c>		<c>0</c>		<c>0</c>	<c>0</c>	<c>0</c>	</l>
+		</gtriggers>
+		<!-- environement -->
+		<environment></environment>
+		<!-- temps -->
+		<time></time>
+		<!-- material -->
+		<materials>
+			<mat>0x999999</mat>
+			<mat>0xA81503</mat>
+			<mat>0x2145C8</mat>
+		</materials>
+		<!-- etages max -->
+		<maxfloorbridge>2</maxfloorbridge>
+		<!-- hauteur de l'etage -->
+		<floorh>10</floorh>
+	</level>
+	
+	<!-- ////////// LEVEL 02 ////////// -->
+	<level>
+		<!-- grille des etages -->
+		<gfloors>
+			<l>	<c>4</c>	<c>7</c>	<c>7</c>	<c>0</c>	<c>7</c>	</l>
+			<l> <c>4</c>	<c>0</c>	<c>7</c>	<c>0</c>	<c>7</c>	</l>
+			<l> <c>4</c>	<c>0</c>	<c>3</c>	<c>0</c>	<c>6</c>	</l>
+			<l> <c>1</c>	<c>0</c>	<c>2</c>	<c>2</c>	<c>2</c>	</l>
+			<l> <c>1</c>	<c>1</c>	<c>0</c>	<c>2</c>	<c>2</c>	</l>
+		</gfloors>
+		<!-- grille des triggers -->
+		<gtriggers>
+			<l>	<c>0</c>		<c>0</c>		<c>0</c>	<c>0</c>	<c>start</c></l>
+			<l>	<c>0</c>		<c>0</c>		<c>0</c>	<c>0</c>	<c>0</c>	</l>
+			<l>	<c>0</c>		<c>0</c>		<c>0</c>	<c>0</c>	<c>0</c>	</l>
+			<l>	<c>0</c>		<c>0</c>		<c>0</c>	<c>0</c>	<c>0</c>	</l>
+			<l>	<c>0</c>		<c>end</c>		<c>0</c>	<c>0</c>	<c>0</c>	</l>
+		</gtriggers>
+		<!-- environement -->
+		<environment></environment>
+		<!-- temps -->
+		<time></time>
+		<!-- material -->
+		<materials>
+			<mat>0x999999</mat>
+			<mat>0xA81503</mat>
+			<mat>0x2145C8</mat>
+		</materials>
+		<!-- etages max -->
+		<maxfloorbridge>4</maxfloorbridge>
+		<!-- hauteur de l'etage -->
+		<floorh>10</floorh>
+	</level>
+</data>
